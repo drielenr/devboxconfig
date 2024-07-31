@@ -1,6 +1,6 @@
 $schema: 1.0
 name: drieledef
-image: some-fake-image-name
+image: updating-image
 tasks:
     - name: choco
       parameters:
