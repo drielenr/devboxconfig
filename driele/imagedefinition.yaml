@@ -1,0 +1,7 @@
+$schema: 1.0
+name: drieledef
+image: some-invalid-image-name
+tasks:
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
