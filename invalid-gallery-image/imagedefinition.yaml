@@ -1,0 +1,7 @@
+$schema: 1.0
+name: invalid-gallery-image-name
+image: gallerytest3/doesnt-exist-image
+tasks:
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
