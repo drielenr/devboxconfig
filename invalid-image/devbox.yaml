@@ -1,6 +1,6 @@
 $schema: 1.0
-name: dhruvdef
-image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+name: invalid-devboxdev
+hostInformation: general_i_16c64gb512ssd_v2
 tasks:
     - name: choco
       parameters:
