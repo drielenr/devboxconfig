@@ -1,6 +1,0 @@
-$schema: 1.0
-name: empty-image
-tasks:
-    - name: choco
-      parameters:
-        package: notepadplusplus.install

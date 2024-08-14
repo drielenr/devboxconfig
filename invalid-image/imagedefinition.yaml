@@ -1,7 +1,0 @@
-$schema: 1.0
-name: invalid-image
-image: some-invalid-name
-tasks:
-    - name: choco
-      parameters:
-        package: notepadplusplus.install
