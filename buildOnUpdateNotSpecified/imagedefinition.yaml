@@ -1,0 +1,7 @@
+$schema: 1.0
+name: buildOnUpdateNotSpecified
+image: gallerytest3/imagedef1
+tasks:
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
