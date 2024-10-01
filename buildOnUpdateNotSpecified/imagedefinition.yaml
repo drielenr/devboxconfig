@@ -1,6 +1,6 @@
 $schema: 1.0
 name: buildOnUpdateNotSpecified
-image: gallerytest3/imagedef1
+triggerImageBuildOnUpdate: gallerytest3/imagedef1
 tasks:
     - name: choco
       parameters:

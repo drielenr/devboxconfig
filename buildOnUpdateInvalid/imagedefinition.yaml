@@ -1,7 +1,7 @@
 $schema: 1.0
 name: buildOnUpdateInvalid
 image: gallerytest3/imagedef1
-buildImageOnUpdate: some-invalid-value
+triggerImageBuildOnUpdate: some-invalid-value
 tasks:
     - name: choco
       parameters:
