@@ -1,6 +1,6 @@
 $schema: 1.0
-name: driele-trigger-def
-image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+name: buildOnUpdateWithCatalogError
+image: invalid-image
 triggerImageBuildOnUpdate: true 
 tasks:
     - name: choco

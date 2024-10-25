@@ -1,6 +1,6 @@
 $schema: 1.0
 name: buildOnUpdateEnabled
-image: gallerytest3/imagedef1
+image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 triggerImageBuildOnUpdate: true 
 tasks:
     - name: choco
