@@ -1,6 +1,6 @@
 $schema: 1.0
-name: gallery-version2
-image: gallerytest3/imagedef1@2.0.0
+name: compute-gallery-v2
+image: drielegallery/dri-image@1.0.1
 tasks:
     - name: choco
       parameters:
