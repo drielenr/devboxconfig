@@ -1,0 +1,7 @@
+$schema: 1.0
+name: gallery-def
+image: wngjian_test_canary/testimage1@1.1.0
+tasks:
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
