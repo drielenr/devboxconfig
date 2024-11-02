@@ -1,6 +1,6 @@
 $schema: 1.0
-name: compute-gallery-latest
-image: drielegallery/dri-image
+name: compute-gallery-def
+image: IntTestSIG/Win11-GoodImage
 tasks:
     - name: choco
       parameters:
