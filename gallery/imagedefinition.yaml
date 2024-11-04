@@ -1,6 +1,6 @@
 $schema: 1.0
 name: gallery-def
-image: gallerycentralus/imagedef1
+image: gallerycentralus/bugbash
 tasks:
     - name: choco
       parameters:
