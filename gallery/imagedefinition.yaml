@@ -1,6 +1,6 @@
 $schema: 1.0
-name: gallery-bugbash-def
-image: gallerycentralus/bugbash
+name: gallery-qxm-def
+image: ACG_qxm_fidalgo/VM3-WESTUS3
 tasks:
     - name: choco
       parameters:
