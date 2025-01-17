@@ -3,6 +3,6 @@ name: driele-trigger-def
 image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 triggerImageBuildOnUpdate: true 
 tasks:
-    - name: choco
+    - name: some-task-it-doesnt-exist
       parameters:
         package: notepadplusplus.install
