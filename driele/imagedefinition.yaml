@@ -1,8 +1,9 @@
 $schema: 1.0
-name: driele-invalid-def
+name: driele-def
 image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 triggerImageBuildOnUpdate: true 
 tasks:
-    - name: some-task-it-doesnt-exist
+    - name: ~/winget
       parameters:
-        package: notepadplusplus.install
+        package: Microsoft.VisualStudioCode
+      description: Install VS Code
