@@ -7,3 +7,7 @@ tasks:
       parameters:
         package: Microsoft.VisualStudioCode
       description: Install VS Code
+userTasks:
+    - name: ~/powershell
+      parameters:
+        command: Start-Process powershell -Verb runAs -ArgumentList "-NoProfile -Command `"Resize-Partition -DiskNumber 0 -PartitionNumber 4 -Size 500GB`""
