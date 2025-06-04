@@ -2,6 +2,7 @@ $schema: 1.0
 name: compute-gallery-def-sh
 image: ShenTestGallery/ShenEnterprise
 tasks:
-    - name: choco
+    - name: ~/winget
       parameters:
-        package: notepadplusplus.install
+        package: Microsoft.VisualStudioCode
+      description: Install VS Code
