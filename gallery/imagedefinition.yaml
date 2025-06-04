@@ -1,6 +1,6 @@
 $schema: 1.0
 name: compute-gallery-def-sh
-image: ShenTestGallery/ShenEnterprise
+image: ShenTestGallery/ShenEnterprise@1.0.0
 tasks:
     - name: ~/winget
       parameters:
