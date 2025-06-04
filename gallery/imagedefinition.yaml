@@ -1,6 +1,6 @@
 $schema: 1.0
-name: compute-gallery-def
-image: IntTestSIG/Win11-GoodImage
+name: compute-gallery-def-sh
+image: ShenTestGallery/ShenEnterprise
 tasks:
     - name: choco
       parameters:
